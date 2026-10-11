@@ -1,0 +1,9 @@
+# Nunca versionar datos ni secretos
+*.csv
+!templates/*.csv
+*.xlsx
+*.pdf
+.streamlit/secrets.toml
+__pycache__/
+.pytest_cache/
+.venv/
