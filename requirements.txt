@@ -1,0 +1,9 @@
+streamlit>=1.40,<2
+pandas>=2.1
+numpy>=1.26
+openpyxl>=3.1
+pdfplumber>=0.11
+pypdfium2>=4.20
+pytesseract>=0.3.10   # opcional: requiere el binario Tesseract instalado localmente
+pytest>=8.0
+pymupdf>=1.23         # solo para las pruebas de extracción (genera un PDF ficticio)
